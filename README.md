@@ -131,6 +131,10 @@ skills/             角色卡生成 skill（格式规范、模板、校验脚本
 Vendor/sherpa-onnx  头文件与 modulemap（动态库运行时下载）
 ```
 
+## 许可证
+
+采用 [Stellarloom Opened Sourced License](LICENSE)：可自由使用、复制、修改、分发，但**禁止商业用途**，且必须保留作者署名与版权声明。软件按"现状"提供，不含任何担保；违法使用的责任由使用者自行承担。
+
 ## 第三方
 
 - [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx)（Apache-2.0）：仅引用头文件，库与模型由 `fetch-models.sh` 下载，请遵守其各自许可。

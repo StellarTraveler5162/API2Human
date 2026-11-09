@@ -131,6 +131,10 @@ skills/             card-generation skill (spec, template, validator)
 Vendor/sherpa-onnx  headers and modulemap (dylibs are downloaded at setup)
 ```
 
+## License
+
+Released under the [Stellarloom Opened Sourced License](LICENSE): free to use, copy, modify and distribute, but **no commercial use**, and the author's name and copyright notice must be retained. Provided "as is" without warranty; the user is solely responsible for any unlawful use.
+
 ## Third party
 
 - [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) (Apache-2.0): only headers are referenced; libraries and models are downloaded by `fetch-models.sh` — please respect their licenses.
