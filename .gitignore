@@ -1,0 +1,35 @@
+# 构建产物
+.build/
+build/
+*.app
+.swiftpm/
+DerivedData/
+*.xcodeproj/xcuserdata/
+
+# 大文件：由 scripts/fetch-models.sh 下载
+Models/
+Vendor/sherpa-onnx/lib/*
+!Vendor/sherpa-onnx/lib/.gitkeep
+
+# 隐私：录音、转写、密钥、本地配置、个人角色卡
+*.wav
+*.m4a
+*.mp3
+*.caf
+*.aiff
+Recordings/
+transcript.txt
+llm.json
+context.json
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.a2hcard
+!Tests/API2HumanTests/Fixtures/*.a2hcard
+!skills/**/assets/*.a2hcard
+
+# 杂项
+.DS_Store
+__pycache__/

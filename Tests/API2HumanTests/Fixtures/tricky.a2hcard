@@ -1,0 +1,32 @@
+---
+a2hcard: 1
+name: Tricky
+role: 工程师
+years: 6
+language: zh+en
+updated: 2026-11-04
+unknown_key: 应被忽略
+---
+前置文字归入一句话定位
+
+## Pitch
+Backend engineer; 6 years [待确认]
+
+## Projects
+### 项目 A [待确认]
+- 背景：日活 80 万（含海外 [待确认]、国内）；峰值 4 万 QPS
+- 我的角色：主导；团队 [待补充：人数]
+- 做法：分片（按城市、按区 [待确认]）；批量写库
+- 结果：P99 900ms → 120ms。机器 40 → 12 台 [待补充]。
+- 追问准备：[待补充]
+<!-- 多行
+注释 [待确认] -->
+- 技术栈：Go，Redis，MySQL [待确认]
+
+## Skills
+- 熟练：Go、Python
+- 用过：Java（Spring Boot、MyBatis）、RocketMQ
+- 了解或没用过：Kafka
+
+## 自定义章节
+保留原文 [待补充]
